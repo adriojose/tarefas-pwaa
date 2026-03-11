@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
@@ -83,3 +84,21 @@ nav a:first-of-type {
   }
 }
 </style>
+=======
+<template>
+  <AppHeader />
+  <main>
+    <router-view />
+  </main>
+</template>
+
+<script setup>
+import AppHeader from './components/AppHeader.vue';
+</script>
+
+<style scoped>
+main {
+  padding-bottom: 40px;
+}
+</style>
+>>>>>>> 66e309c (falta o icon so)
