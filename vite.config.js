@@ -44,7 +44,7 @@ export default defineConfig({
             type: 'image/png',
           },
           {
-            src: '/icons/icon-512x512.png',
+            src: '/icons/fluminense.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',
